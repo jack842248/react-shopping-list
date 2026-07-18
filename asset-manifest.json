@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/react-cra/static/css/main.1043dca8.css",
-    "main.js": "/react-cra/static/js/main.8f999eb2.js",
-    "static/media/logo.svg": "/react-cra/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/react-cra/static/css/main.fc50ef92.css",
+    "main.js": "/react-cra/static/js/main.404ded0f.js",
     "index.html": "/react-cra/index.html",
-    "main.1043dca8.css.map": "/react-cra/static/css/main.1043dca8.css.map",
-    "main.8f999eb2.js.map": "/react-cra/static/js/main.8f999eb2.js.map"
+    "main.fc50ef92.css.map": "/react-cra/static/css/main.fc50ef92.css.map",
+    "main.404ded0f.js.map": "/react-cra/static/js/main.404ded0f.js.map"
   },
   "entrypoints": [
-    "static/css/main.1043dca8.css",
-    "static/js/main.8f999eb2.js"
+    "static/css/main.fc50ef92.css",
+    "static/js/main.404ded0f.js"
   ]
 }
