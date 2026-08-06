@@ -1,6 +1,7 @@
 import { createContext } from "react";
 
-const calcTotal = (list) => list.map((item) => item.qty * item.price).reduce((a, b) => a + b, 0);
+const calcTotal = (list) => list.reduce((sum, item) => sum + item.qty * item.price, 0);
+// const calcTotal = (list) => list.map((item) => item.qty * item.price).reduce((a, b) => a + b, 0);
 
 export const CartInit = {
     cartList: [],
@@ -11,7 +12,8 @@ export const CartReducer = (state, action) => {
     switch (action.type) {
         case 'ADD_TO_CART': {
             let newCartList;
-            if (state.cartList.some((item) => item.id === action.payload.id)) {
+            const isExist = state.cartList.some((item) => item.id === action.payload.id);
+            if (isExist) {
                 newCartList = state.cartList.map((item) => {
                     if (item.id === action.payload.id) {
                         return {
